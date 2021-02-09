@@ -56,7 +56,7 @@ body{
       background-position: center;
       background-size: cover;
 		animation-name: zoom;
-		animation-duration: 5s;
+		animation-duration: 3s;
 		filter:brightness(60%);
 		  }
 		
@@ -65,19 +65,19 @@ body{
 			  to{transform: scale(1.1,1.1);}
 		  }
 
-		    .carousel-caption{
+		    /*.carousel-caption{
 			  margin-bottom: 100px;
 				
 			  
 		  }
-		  .carousel-caption h1{
-			  color: white;
+		  .carousel-caption .c{
+			  color: black
 		  }
-		  .lead{
-			  color: #f8e4b7;
+		  .cc{
+			  color: black;
 		  }
 		  
-
+*/
  .about{
             padding-top: 50px;
 			
@@ -196,12 +196,12 @@ a:hover{
     margin-left: 3px;
     padding-right: 3px;
 }
-.bottom p {
+/*.bottom p {
     margin-bottom: 0;
     line-height: 50px;
     font-size: 16px;
     font-weight: 400;
-}
+}*/
 .copyright p span {
     color: #d1caca;
 }
